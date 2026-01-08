@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: LibraryDirections
+
+server:
+  port: 8083
+
+library:
+  directions:
+    destination-address: "Ομήρου 9, Ταύρος, Αθήνα, Ελλάδα"
+    maps-base-url: "https://www.google.com/maps/dir/?api=1"
