@@ -38,4 +38,14 @@ public class Map {
     public void setProvider(String provider) {
         this.provider = provider;
     }
+    private Integer distanceMeters;
+    private Integer durationSeconds;
+
+    // getters/setters
+    public Integer getDistanceMeters() { return distanceMeters; }
+    public void setDistanceMeters(Integer distanceMeters) { this.distanceMeters = distanceMeters; }
+
+    public Integer getDurationSeconds() { return durationSeconds; }
+    public void setDurationSeconds(Integer durationSeconds) { this.durationSeconds = durationSeconds; }
+
 }

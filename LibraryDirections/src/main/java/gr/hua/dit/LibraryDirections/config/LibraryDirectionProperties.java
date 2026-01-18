@@ -32,4 +32,13 @@ public class LibraryDirectionProperties {
     public void setMapsBaseUrl(String mapsBaseUrl) {
         this.mapsBaseUrl = mapsBaseUrl;
     }
+
+    private String apiKey;
+    private String originCoordinates; // πχ "37.9838,23.7275" για Αθήνα
+    public String getApiKey() { return apiKey; }
+    public void setApiKey(String apiKey) { this.apiKey = apiKey; }
+
+    public String getOriginCoordinates() { return originCoordinates; }
+    public void setOriginCoordinates(String originCoordinates) { this.originCoordinates = originCoordinates; }
+
 }
